@@ -9,10 +9,10 @@ const MenuItem = ({ item }) => {
         style={{ borderRadius: "0px 200px 200px 200px" }}
       />
 
-      <div>
+      <div className="dark:text-white">
         <h2 className="uppercase">{name} ----------------</h2>
 
-        <p className="text-sm text-gray-700">{recipe}</p>
+        <p className="text-sm text-gray-700 dark:text-white">{recipe}</p>
       </div>
       <p className="text-yellow-600">${price}</p>
     </div>

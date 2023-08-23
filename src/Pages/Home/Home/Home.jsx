@@ -1,6 +1,7 @@
 import Featured from "../../../Components/Featured/Featured";
 import Banner from "../Banner/Banner";
 import Catagory from "../Catagory/Catagory";
+import ChefRec from "../ChefRec/ChefRec";
 import PopularMenu from "../PopularMenu/PopularMenu";
 import SpecialItem from "../SpecialItem/SpecialItem";
 import Testimonial from "../Testimonial/Testimonial";
@@ -17,6 +18,7 @@ const Home = () => {
         }
       ></Featured>
       <PopularMenu></PopularMenu>
+      <ChefRec></ChefRec>
       <SpecialItem></SpecialItem>
       <Testimonial></Testimonial>
     </main>

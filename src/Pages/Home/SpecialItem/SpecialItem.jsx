@@ -73,7 +73,7 @@ const SpecialItem = () => {
               consequuntur omnis ullam maxime tenetur.
             </p>
             <button className="btn btn-outline border-0 border-b-4 text-white">
-              Default
+              Order Now
             </button>
           </div>
         </div>
