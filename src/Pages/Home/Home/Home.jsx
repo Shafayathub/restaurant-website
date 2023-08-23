@@ -2,6 +2,8 @@ import Featured from "../../../Components/Featured/Featured";
 import Banner from "../Banner/Banner";
 import Catagory from "../Catagory/Catagory";
 import PopularMenu from "../PopularMenu/PopularMenu";
+import SpecialItem from "../SpecialItem/SpecialItem";
+import Testimonial from "../Testimonial/Testimonial";
 
 const Home = () => {
   return (
@@ -15,6 +17,8 @@ const Home = () => {
         }
       ></Featured>
       <PopularMenu></PopularMenu>
+      <SpecialItem></SpecialItem>
+      <Testimonial></Testimonial>
     </main>
   );
 };
