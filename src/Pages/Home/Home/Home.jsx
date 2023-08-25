@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 import Featured from "../../../Components/Featured/Featured";
 import Banner from "../Banner/Banner";
 import Catagory from "../Catagory/Catagory";
@@ -9,6 +10,13 @@ import Testimonial from "../Testimonial/Testimonial";
 const Home = () => {
   return (
     <main>
+      <Helmet>
+        <title>Home | Bistro Boss - Restaurant</title>
+        <link
+          rel="canonical"
+          href="https://restaurant-website-fawn-one.vercel.app/"
+        />
+      </Helmet>
       <Banner></Banner>
       <Catagory></Catagory>
       <Featured
