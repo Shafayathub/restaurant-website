@@ -39,11 +39,13 @@ const Menu = () => {
           heading="OUR MENU"
           subHeading="Would you like to try a dish?"
         ></Cover>
+        {/* today's offer */}
         <SectionTitle
           heading={"Today's Offer"}
           subHeading={"Don't Miss Out"}
         ></SectionTitle>
         <MenuList items={todaysOffer}></MenuList>
+        {/* Desserts */}
         <Featured
           img={dessertImg}
           heading={"DESSERTS"}
@@ -52,6 +54,7 @@ const Menu = () => {
           }
         ></Featured>
         <MenuList items={dessert}></MenuList>
+        {/* Pizza */}
         <Featured
           img={pizzaImg}
           heading={"Pizza"}
@@ -60,6 +63,7 @@ const Menu = () => {
           }
         ></Featured>
         <MenuList items={pizza}></MenuList>
+        {/* Salad */}
         <Featured
           img={saladImg}
           heading={"Salad"}
@@ -68,6 +72,7 @@ const Menu = () => {
           }
         ></Featured>
         <MenuList items={salad}></MenuList>
+        {/* Soup */}
         <Featured
           img={soupImg}
           heading={"Soup"}
